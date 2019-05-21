@@ -3,12 +3,11 @@ resources:
 - name: resource-tutorial
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/hairdavid7/concourse-tutorials
 jobs:
 - name: job-hello-world
   public: true
   plan:
   - get: resource-tutorial
   - task: hello-world
-    file: resource-tutorial/tutorials/basic/task-hello-world/task_hello_world.yml
-
+    file: resource-tutorial/hello-world/hello-world.yml
