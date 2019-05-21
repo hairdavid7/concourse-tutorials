@@ -5,4 +5,4 @@ image_resource:
   source: {repository: busybox}
 run:
   path: echo
-  args: [My name is Mike T]
+  args: ["My name is Mike T"]
