@@ -1,3 +1,4 @@
+---
 config:
       platform: linux
       image_resource:
