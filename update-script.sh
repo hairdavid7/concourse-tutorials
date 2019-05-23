@@ -8,8 +8,8 @@ git clone khan-repo updated-log-repo
 cd updated-log-repo
 echo "the hairdavid7 repository was updated on $(date)" >> log-file.txt
 
-git config --global user.email "concourse-worker@ccw.ccw"
-git config --global user.name "concourse-worker"
+git config --global user.email "hazelcedar@gmail.com"
+git config --global user.name "hazelcedar"
 
 git add log-file.txt
 git commit -m "log file update"
